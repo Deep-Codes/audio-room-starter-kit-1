@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@100mslive/react-sdk": "^0.1.1",
+    "@100mslive/react-sdk": "0.1.1-alpha.0",
     "@craco/craco": "^6.2.0",
     "boring-avatars": "^1.5.8",
     "iconv-lite": "^0.6.3",

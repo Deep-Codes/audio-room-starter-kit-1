@@ -2,21 +2,21 @@
 # yarn lockfile v1
 
 
-"@100mslive/hms-video-store@0.3.1":
-  "integrity" "sha512-A2Hdi3ABaoVT4oCdJoCNCZCKy7SUepeIiuKSMmlVQRbIhjs38zN36DbTwyNf4sCe2LfCE5RbKBudxROeWuv/8g=="
-  "resolved" "https://registry.npmjs.org/@100mslive/hms-video-store/-/hms-video-store-0.3.1.tgz"
-  "version" "0.3.1"
+"@100mslive/hms-video-store@0.3.1-alpha.0":
+  "integrity" "sha512-FKfJlbc0cwDhf8fNMdUo6RQWOgTf9sxAZREd94ko97+tXnYsUxcibpA5jtDTK3IElUZQn6nralvMLXSXx2RZUA=="
+  "resolved" "https://registry.npmjs.org/@100mslive/hms-video-store/-/hms-video-store-0.3.1-alpha.0.tgz"
+  "version" "0.3.1-alpha.0"
   dependencies:
-    "@100mslive/hms-video" "0.2.1"
+    "@100mslive/hms-video" "0.2.1-alpha.0"
     "eventemitter2" "^6.4.5"
     "immer" "^9.0.6"
     "reselect" "4.0.0"
     "zustand" "3.5.7"
 
-"@100mslive/hms-video@0.2.1":
-  "integrity" "sha512-N7fRjunqfPNYjoU8mNGTrzIbcsWKhmn6qLBg6EYltTkpLB7c8TrqK9syGif+j8ka8Aexh7E16wYddZ9i7NbEbw=="
-  "resolved" "https://registry.npmjs.org/@100mslive/hms-video/-/hms-video-0.2.1.tgz"
-  "version" "0.2.1"
+"@100mslive/hms-video@0.2.1-alpha.0":
+  "integrity" "sha512-CntEw0yenx+0ei96Ox8Wrw27R/aTkYfLLZ2E8+k6uneMT3XhiQ5POhbJK0JpkgfqJ6RqLeEdXccOLITR1EDFHw=="
+  "resolved" "https://registry.npmjs.org/@100mslive/hms-video/-/hms-video-0.2.1-alpha.0.tgz"
+  "version" "0.2.1-alpha.0"
   dependencies:
     "eventemitter2" "^6.4.5"
     "sdp-transform" "^2.14.1"
@@ -24,12 +24,12 @@
     "uuid" "^8.3.2"
     "webrtc-adapter" "^8.0.0"
 
-"@100mslive/react-sdk@^0.1.1":
-  "integrity" "sha512-17Dz4pMMgncYeWeecg8ikjWCSwh8qFIP+JqZc5sZTN6jX2ludeQ77Y5aXj1jgF4exE0mJ+MKqtVLKT93Uu7ZAQ=="
-  "resolved" "https://registry.npmjs.org/@100mslive/react-sdk/-/react-sdk-0.1.1.tgz"
-  "version" "0.1.1"
+"@100mslive/react-sdk@0.1.1-alpha.0":
+  "integrity" "sha512-ERpI8LIkFxMpmqd41Sm7cp7hyz4vGkreXwJnHI+S2L5HwdspIzbpUG2ru0NvBVf+iV0ODU0aya7CaQW1lypJ5Q=="
+  "resolved" "https://registry.npmjs.org/@100mslive/react-sdk/-/react-sdk-0.1.1-alpha.0.tgz"
+  "version" "0.1.1-alpha.0"
   dependencies:
-    "@100mslive/hms-video-store" "0.3.1"
+    "@100mslive/hms-video-store" "0.3.1-alpha.0"
     "react-intersection-observer" "^8.33.1"
     "react-resize-detector" "^7.0.0"
     "zustand" "^3.6.2"
