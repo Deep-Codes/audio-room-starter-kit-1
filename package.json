@@ -4,7 +4,9 @@
   "private": true,
   "dependencies": {
     "@100mslive/react-sdk": "0.1.1-alpha.0",
+    "@100mslive/react-ui": "^0.1.1",
     "@craco/craco": "^6.2.0",
+    "@radix-ui/react-dialog": "^0.1.7",
     "boring-avatars": "^1.5.8",
     "iconv-lite": "^0.6.3",
     "react": "^17.0.2",
