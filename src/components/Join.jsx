@@ -9,10 +9,13 @@ import { useHMSActions } from '@100mslive/hms-video-react';
 const Join = () => {
   const hmsActions = useHMSActions();
   const [role, setRole] = useState('speaker');
+  const [isLoading, setIsLoading] = useState(false);
   const [username, setUsername] = useState('');
   const joinRoom = () => {
+    setIsLoading(true);
     getToken(role)
       .then((token) => {
+        setIsLoading(false);
         hmsActions.join({
           userName: username || 'Anonymous',
           authToken: token,
@@ -23,6 +26,7 @@ const Join = () => {
         });
       })
       .catch((error) => {
+        setIsLoading(false);
         console.log('Token API Error', error);
       });
   };
@@ -32,7 +36,7 @@ const Join = () => {
       <img src={"/image.png"} width={128} />
       <Input state={{ username, setUsername }} />
       <Select state={{ role, setRole }} />
-      <JoinButton onClick={joinRoom} />
+      <JoinButton isLoading={isLoading} onClick={joinRoom} />
     </div>
   );
 };
