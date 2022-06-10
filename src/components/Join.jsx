@@ -28,7 +28,8 @@ const Join = () => {
   };
   return (
     <div className='flex flex-col items-center justify-center h-screen'>
-      <Avatar size={120} name={username} />
+      {/* <Avatar size={120} name={username} /> */}
+      <img src={"/image.png"} width={128} />
       <Input state={{ username, setUsername }} />
       <Select state={{ role, setRole }} />
       <JoinButton onClick={joinRoom} />
