@@ -6,6 +6,9 @@ import {
 import Join from './components/Join';
 import Room from './components/Room';
 import './App.css';
+import LogRocket from 'logrocket'
+
+Logrocket.init('plwzmx/starter-kits')
 
 const SpacesApp = () => {
   const isConnected = useHMSStore(selectIsConnectedToRoom);
