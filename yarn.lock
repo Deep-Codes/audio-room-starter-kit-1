@@ -2,12 +2,12 @@
 # yarn lockfile v1
 
 
-"@100mslive/hms-video-react@^0.3.32":
-  "integrity" "sha512-Q6TBn57atKfAo/nrtCKsHBQ9PJXOoxmEGUXmbWSiR6NuWAQxoEEFbOXW30tzmQxIzwGHKqvr07a9fV7LZb0wRw=="
-  "resolved" "https://registry.npmjs.org/@100mslive/hms-video-react/-/hms-video-react-0.3.128.tgz"
-  "version" "0.3.128"
+"@100mslive/hms-video-react@^0.4.1":
+  "integrity" "sha512-bHGmHmw2mn8gxDc4pvrw+VvBiP72ognwtg42lN2ZDp1yI1s5CrTL5OnkrcHD8TcfW37Uyy0Cd7NO4YYJeUqOrA=="
+  "resolved" "https://registry.npmjs.org/@100mslive/hms-video-react/-/hms-video-react-0.4.1.tgz"
+  "version" "0.4.1"
   dependencies:
-    "@100mslive/hms-video-store" "0.2.100"
+    "@100mslive/hms-video-store" "0.3.1"
     "@material-ui/core" "^4.11.3"
     "@twind/aspect-ratio" "^0.1.4"
     "autoprefixer" "^9.8.6"
@@ -25,32 +25,21 @@
     "twind" "^0.16.12"
     "zustand" "3.5.7"
 
-"@100mslive/hms-video-store@0.2.100":
-  "integrity" "sha512-CTZykckANy6rMkGS8tdP5OZkGEfYAfmolmCjft5VWXdq9gChF5YLdkw/hdBFtrNeJe3ww8ZKFzqTva8fcLjTpA=="
-  "resolved" "https://registry.npmjs.org/@100mslive/hms-video-store/-/hms-video-store-0.2.100.tgz"
-  "version" "0.2.100"
+"@100mslive/hms-video-store@0.3.1":
+  "integrity" "sha512-A2Hdi3ABaoVT4oCdJoCNCZCKy7SUepeIiuKSMmlVQRbIhjs38zN36DbTwyNf4sCe2LfCE5RbKBudxROeWuv/8g=="
+  "resolved" "https://registry.npmjs.org/@100mslive/hms-video-store/-/hms-video-store-0.3.1.tgz"
+  "version" "0.3.1"
   dependencies:
-    "@100mslive/hms-video" "0.1.54"
+    "@100mslive/hms-video" "0.2.1"
     "eventemitter2" "^6.4.5"
     "immer" "^9.0.6"
     "reselect" "4.0.0"
     "zustand" "3.5.7"
 
-"@100mslive/hms-video@^0.0.148":
-  "integrity" "sha512-+UFGJagKfVHq0TGxLdzu85+f21IXV/0u13vWXhL8KwzasUpJeqnQu/Dkf4jAba8bJt3Z9KISdxwFfDdy3MtUOg=="
-  "resolved" "https://registry.npmjs.org/@100mslive/hms-video/-/hms-video-0.0.148.tgz"
-  "version" "0.0.148"
-  dependencies:
-    "events" "^3.3.0"
-    "sdp-transform" "^2.14.1"
-    "ua-parser-js" "^0.7.28"
-    "uuid" "^8.3.2"
-    "webrtc-adapter" "^8.0.0"
-
-"@100mslive/hms-video@0.1.54":
-  "integrity" "sha512-XqqAh/4LAHlpRSJ8B9xqWshSTm7KVse8lBpTYmEQofC2a1VLMphi3QsFyWoMVS0BHgC8tDag8tXf7cQEld4Alw=="
-  "resolved" "https://registry.npmjs.org/@100mslive/hms-video/-/hms-video-0.1.54.tgz"
-  "version" "0.1.54"
+"@100mslive/hms-video@^0.2.1", "@100mslive/hms-video@0.2.1":
+  "integrity" "sha512-N7fRjunqfPNYjoU8mNGTrzIbcsWKhmn6qLBg6EYltTkpLB7c8TrqK9syGif+j8ka8Aexh7E16wYddZ9i7NbEbw=="
+  "resolved" "https://registry.npmjs.org/@100mslive/hms-video/-/hms-video-0.2.1.tgz"
+  "version" "0.2.1"
   dependencies:
     "eventemitter2" "^6.4.5"
     "sdp-transform" "^2.14.1"
@@ -5113,7 +5102,7 @@
   "resolved" "https://registry.npmjs.org/eventemitter3/-/eventemitter3-4.0.7.tgz"
   "version" "4.0.7"
 
-"events@^3.0.0", "events@^3.3.0":
+"events@^3.0.0":
   "integrity" "sha512-mQw+2fkQbALzQ7V0MY0IqdnXNOeTtP4r0lN9z7AAawCXgqea7bDii20AYrIBrFd/Hx0M2Ocz6S111CaFkUcb0Q=="
   "resolved" "https://registry.npmjs.org/events/-/events-3.3.0.tgz"
   "version" "3.3.0"
@@ -11887,11 +11876,6 @@
   "integrity" "sha512-WOkT3XYvrpXx4vMMqlD+8R8R37fZkjyLGlxavMc4iB8lrl8L0DeTcHbYgw/v0N/z9wAFsgBhcsF0ruoySS22mA=="
   "resolved" "https://registry.npmjs.org/typescript/-/typescript-4.7.3.tgz"
   "version" "4.7.3"
-
-"ua-parser-js@^0.7.28":
-  "integrity" "sha512-qLK/Xe9E2uzmYI3qLeOmI0tEOt+TBBQyUIAh4aAgU05FVYzeZrKUdkAZfBNVGRaHVgV0TDkdEngJSw/SyQchkQ=="
-  "resolved" "https://registry.npmjs.org/ua-parser-js/-/ua-parser-js-0.7.31.tgz"
-  "version" "0.7.31"
 
 "ua-parser-js@^1.0.1":
   "integrity" "sha512-00y/AXhx0/SsnI51fTc0rLRmafiGOM4/O+ny10Ps7f+j/b8p/ZY11ytMgznXkOVo4GQ+KwQG5UQLkLGirsACRg=="
